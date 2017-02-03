@@ -1,0 +1,22 @@
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.jumbotron {
+    position: relative;
+    background: url("../img/test.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 75vh;
+    color: white;
+}
+
+.header-logo {
+    font-size: 4em;
+}
+
+.header-subtext {
+    font-size: 2em;
+}
