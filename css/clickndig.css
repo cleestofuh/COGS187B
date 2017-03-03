@@ -19,6 +19,10 @@ body {
     padding: 20px;
     color: #444;
 }
+.section-header {
+    font-weight: 700;
+    font-size: 2em;
+}
 /* NAVBAR */
 .navbar {
     color: #475867;
@@ -49,10 +53,17 @@ body {
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background: #fff;
 }
+.navbar-logo-img {
+    height: 150%;
+    width: auto;
+}
 @media (max-width: 766px) {
     .navbar-collapse {
         background: #eee;
         font-weight: 700;
+    }
+    .navbar-logo-img {
+        margin-top: -6px;
     }
 }
 
