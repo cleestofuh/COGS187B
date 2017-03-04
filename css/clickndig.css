@@ -23,6 +23,9 @@ body {
     font-weight: 700;
     font-size: 2em;
 }
+.off-color {
+    color: #F67164;
+}
 /* NAVBAR */
 .navbar {
     color: #475867;
@@ -72,7 +75,7 @@ body {
 .buynow-btn {
     color: #fff;
     background: #F67164;
-    margin: 15px;
+    margin: 10px;
 }
 .jumbotron {
     position: relative;
@@ -130,6 +133,15 @@ body {
     margin: 15px;
 }
 
+/***** FAQ *****/
+.search-button {
+    background: white;
+}
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #efefef;
+    color: #444;
+}
 
 /***** Modal *****/
 
