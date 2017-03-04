@@ -184,6 +184,11 @@ body {
     margin-top: 15px;
     border: 0;
 }
+
+.container > .panel{
+    margin-bottom: 5px;
+}
+
 .feature-panel > .panel-heading {
     background: #fff;
     border-top: 1px solid #ddd;
