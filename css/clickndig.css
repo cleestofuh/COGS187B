@@ -1,6 +1,11 @@
 body {
     font-family: 'Quicksand', sans-serif;
 }
+
+.vertical-align{
+    vertical-align: text-top;
+}
+
 .margin-top-50 {
     margin-top: 50px;
 }
