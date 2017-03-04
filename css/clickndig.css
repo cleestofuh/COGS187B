@@ -3,11 +3,17 @@ body {
 }
 
 .vertical-align{
-    vertical-align: text-top;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .margin-top-50 {
     margin-top: 50px;
+}
+
+.margin-top-150 {
+    margin-top: 150px;
 }
 .blue-bg {
     background: #475867;
