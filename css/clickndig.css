@@ -135,7 +135,7 @@ body {
 
 .modal-backdrop.in {
     filter: alpha(opacity=7);
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .modal-content {
