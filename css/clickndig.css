@@ -94,7 +94,7 @@ body {
 /* HOME */
 .buynow-btn {
     color: #fff;
-    background: #F67164;
+    background: #F67164 !important;
     margin: 10px;
 }
 .jumbotron {
