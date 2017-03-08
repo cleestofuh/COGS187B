@@ -98,6 +98,11 @@ body {
     .navbar-logo-img {
         margin-top: -6px;
     }
+    .video {
+        position: relative;
+        width: 50%;
+        height: 50%;
+    }
 }
 
 
@@ -156,6 +161,16 @@ body {
 .fa-star {
     font-size: 30px;
     color: #ccc;
+}
+@media (min-width: 768px) {
+    #amazon-review {
+        margin-top: -27%;
+    }
+    .video {
+        height: 50%;
+        width: 50%;
+        left: 25.2%;
+    }
 }
 /* FOOTER */
 .footer > .fa {
