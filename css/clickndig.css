@@ -1,5 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    font-size: 13pt;
 }
 
 .img-center{
@@ -110,7 +111,7 @@ body {
 }
 .header-logo {
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3em;
 }
 .header-subtext {
     font-size: 2em;
