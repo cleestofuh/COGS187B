@@ -47,6 +47,15 @@ body {
 .off-color {
     color: #F67164;
 }
+@media (min-width: 767px) {
+    .grey-bg {
+        background: #fff;
+    }
+    .review-text {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
 /* NAVBAR */
 .navbar {
     color: #475867;
@@ -199,6 +208,11 @@ body {
 }
 .product-modal .modal-footer {
     text-align: left;
+}
+@media (min-width: 767px) {
+    .product {
+        background: #fff;
+    }
 }
 /***** Video Modal *****/
 
