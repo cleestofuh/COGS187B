@@ -48,7 +48,7 @@ body {
     color: #F67164;
 }
 @media (min-width: 767px) {
-    .grey-bg {
+    #homepage-content .grey-bg {
         background: #fff;
     }
     .review-text {
