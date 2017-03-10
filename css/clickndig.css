@@ -90,7 +90,7 @@ body {
     background: #fff;
 }
 .navbar-logo-img {
-    height: 140%;
+    height: 130%;
     width: auto;
 }
 .navbar-cart {
@@ -107,7 +107,7 @@ body {
     .navbar-logo-container {
         position: absolute;
         left: 50%;
-        margin-left: -69.2265px !important;  /* 50% of your logo width */
+        margin-left: -65.3515px !important;  /* 50% of your logo width */
         display: block;
     }
     .video {
