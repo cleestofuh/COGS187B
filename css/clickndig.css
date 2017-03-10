@@ -276,7 +276,6 @@ body {
         display: inline !important;
     }
     .actions .btn{
-        width:36%;
         margin:1.5em 0;
     }
 
@@ -290,11 +289,17 @@ body {
     table#cart thead { display: none; }
     table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
 
-
-
-
     table#cart tfoot td{display:block; }
     table#cart tfoot td .btn{display:block;}
+    .table {
+    border-bottom:0px !important;
+    }
+    .table th, .table td {
+        border: 1px !important;
+    }
+    .fixed-table-container {
+        border:0px !important;
+    }
 
 }
 
