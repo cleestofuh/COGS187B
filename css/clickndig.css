@@ -96,6 +96,9 @@ body {
 .navbar-cart {
     display: none;
 }
+.nav-cart-btn {
+    margin-right: 5px;
+}
 @media (max-width: 766px) {
     .navbar-collapse {
         background: #eee;
