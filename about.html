@@ -14,17 +14,20 @@
     <link rel="stylesheet" href="css/clickndig.css">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-logo-container">
             <a class="navbar-brand" href="home.html"><img class="navbar-logo-img" src="img/clickndig_logo.png" alt="logo"></a>
+          </div>
+          <a type="button" class="btn btn-default navbar-cart" href="cart.html"><i class="fa fa-shopping-cart"></i></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,11 +39,11 @@
               <li class="active"><a href="about.html">ABOUT</a></li>
               <li><a href="wholesale.html">WHOLESALE</a></li>
               <li><a href="contact.html">CONTACT</a></li>
-              <li><a type="button" class="btn buynow-btn" style="color: white; width: 100px; padding: 5px;" href="https://www.amazon.com/Click-n-dig/b/ref=w_bl_hsx_s_off_web_3022598011?ie=UTF8&node=3022598011&field-lbr_brands_browse-bin=Click+n+dig" target="_blank"><i class="fa fa-shopping-cart"></i> Amazon</a></li>
+              <li class="nav-cart-btn"><a type="button" class="btn buynow-btn" style="color: white; padding: 5px;" href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+      </div><!-- /.container-fluid -->
+    </nav>
 <div style="margin-top: 50px">
 
     <!-- BANNER PICTURE ------------------------------------>
@@ -106,10 +109,6 @@
             </div>
         </div>
     </div>
-</div>
-
-<div class="cart-button col-sm-12 col-xs-12">
-    <a type="button" href="cart.html" class="floatright circle btn buynow-btn"><i class="circle-center fa fa-shopping-cart"></i></a>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

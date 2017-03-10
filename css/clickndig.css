@@ -65,6 +65,9 @@ body {
     background: #fff;
     font-weight: 700;
 }
+.navbar-toggle {
+    float: left;
+}
 .navbar-default .navbar-nav>li>a {
     color: #475867;
 }
@@ -90,6 +93,9 @@ body {
     height: 140%;
     width: auto;
 }
+.navbar-cart {
+    display: none;
+}
 @media (max-width: 766px) {
     .navbar-collapse {
         background: #eee;
@@ -98,10 +104,29 @@ body {
     .navbar-logo-img {
         margin-top: -6px;
     }
+    .navbar-logo-container {
+        position: absolute;
+        left: 50%;
+        margin-left: -69.2265px !important;  /* 50% of your logo width */
+        display: block;
+    }
     .video {
         position: relative;
         width: 50%;
         height: 50%;
+    }
+    .navbar-cart {
+        display: block;
+        color: #475867;
+        border: 0;
+        background:
+        transparent;
+        padding: 10px;
+        float: right;
+        font-size: 15pt;
+    }
+    .nav-cart-btn {
+        display: none !important;
     }
 }
 
@@ -160,7 +185,7 @@ body {
 }
 .fa-star {
     font-size: 30px;
-    color: #ccc;
+    color: #ffcc00;
 }
 @media (min-width: 768px) {
     #amazon-review {
