@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+.small-width{
+    width: 70%;
+}
+
 .img-center{
     margin: 0 auto;
     display: block;
@@ -156,7 +160,7 @@ body {
 }
 .jumbotron {
     position: relative;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/products/7.jpg') no-repeat center center;
+    background: linear-gradient( rgba(0, 100, 180, 0.2), rgba(0, 100, 180, 0.2) ), url('../img/products/7.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -165,6 +169,7 @@ body {
     color: white;
     margin: 0;
 }
+
 .header-logo {
     font-weight: 700;
     font-size: 3em;
@@ -293,7 +298,7 @@ body {
 }
 .about-jumbotron {
     position: relative;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/products/9.jpg') no-repeat center center;
+    background: linear-gradient( rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.2) ), url('../img/products/9.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
