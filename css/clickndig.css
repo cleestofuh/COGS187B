@@ -187,7 +187,8 @@ p {
 .image-centered {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    width: 70%;
 }
 .video-container {
     position:relative;
@@ -234,6 +235,12 @@ p {
     .home-icon-right {
         padding-right: 20%;
 
+    }
+}
+@media (max-width: 766px) {
+    .image-centered {
+        width: 120%;
+        margin-left: -30px;
     }
 }
 
@@ -437,6 +444,22 @@ label {
     width: 100%;
     height: auto;
 }
+.d2 {
+    width: 70%;
+}
 .buynow-fixed {
     width: 150px;
+}
+
+@media (max-width: 766px) {
+    .product-img-long {
+        top: 0;
+        width: 180%;
+        height: auto;
+        margin-left: -140px;
+    }
+    .d2 {
+        width: 160%;
+        margin-left: -115px;
+    }
 }
