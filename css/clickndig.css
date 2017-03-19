@@ -205,7 +205,7 @@ body {
   background-position: center center;
   background-size: cover;
 }
-.fa-star {
+.fa-star, .fa-star-half-full {
     font-size: 30px;
     color: #ffcc00;
 }
@@ -228,6 +228,10 @@ body {
         padding-right: 20%;
 
     }
+}
+
+.reviews{
+    margin-bottom: 50px;
 }
 /* FOOTER */
 .footer > .fa {
