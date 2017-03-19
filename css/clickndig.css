@@ -197,7 +197,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
 }
 .video-container {
     position:relative;
@@ -227,6 +227,7 @@ p {
     color: #ffcc00;
 }
 @media (min-width: 768px) {
+
     #after-video {
         margin-top: -27%;
     }
@@ -457,6 +458,13 @@ label {
     width: 100%;
     height: auto;
 }
+
+@media (min-width: 767px){
+    .product-img-long{
+        margin-bottom: -50px;
+    }
+}
+
 .d2 {
     width: 70%;
 }
