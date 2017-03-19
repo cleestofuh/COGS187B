@@ -216,6 +216,13 @@ body {
     .short-page {
         height: 550px;
     }
+    .home-icon-left {
+        padding-left: 20%;
+    }
+    .home-icon-right {
+        padding-right: 20%;
+
+    }
 }
 /* FOOTER */
 .footer > .fa {
