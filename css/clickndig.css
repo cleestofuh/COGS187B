@@ -199,6 +199,9 @@ body {
         width: 50%;
         left: 25.2%;
     }
+    .short-page {
+        height: 550px;
+    }
 }
 /* FOOTER */
 .footer > .fa {

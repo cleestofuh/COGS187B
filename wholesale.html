@@ -55,35 +55,36 @@
         <div class="container">
             <div class="white-bg col-xs-12 col-sm-12">
                 <form>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="firstname" class="col-2 col-form-label">FIRST NAME <span class="off-color">*</span></label>
                         <div class="col-10">
                             <input class="form-control" type="text" placeholder="First Name" id="firstname">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="lastname" class="col-2 col-form-label">LAST NAME <span class="off-color">*</span></label>
                         <div class="col-10">
                             <input class="form-control" type="text" placeholder="Last Name" id="lastname">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="lastname" class="col-2 col-form-label">COMPANY NAME</label>
                         <div class="col-10">
                             <input class="form-control" type="text" placeholder="Company Name" id="companyname">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="email">EMAIL ADDRESS <span class="off-color">*</span></label>
                         <input type="email" class="form-control" id="email" placeholder="Email Address">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="phone" class="col-2 col-form-label">PHONE NUMBER <span class="off-color">*</span></label>
                         <div class="col-10">
                             <input class="form-control" type="tel" placeholder="Phone Number" id="phone">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="col-md-12"></div>
+                    <div class="form-group col-md-6">
                         <label for="reason">REASON FOR INTEREST WHOLESALE <span class="off-color">*</span></label>
                         <select class="form-control" id="reason">
                             <option>Side Business</option>
@@ -91,12 +92,12 @@
                             <option>Other (Please Describe)</option>
                         </select>
                     </div>
-                    <div id="otherdesc" class="form-group collapse">
+                    <div id="otherdesc" class="form-group collapse col-md-12">
                         <div class="col-10">
                             <input class="form-control" type="text" placeholder="Description" id="wholesaledesc">
                         </div>
                     </div>
-                    <div id="mainchannel" class="form-group">
+                    <div id="mainchannel" class="form-group col-md-12">
                         <label for="phone" class="col-2 col-form-label">MAIN SELLING CHANNEL(S)? <span class="off-color">*</span></label>
                         <br>
                         <label class="form-check-label">
@@ -139,29 +140,30 @@
                             <input class="form-control" type="text" placeholder="Description" id="sellingchannel">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-12">
                         <label for="comments">PLEASE LIST ALL WEBSITES WHERE YOU MAY SELL THE PRODUCT</label>
                         <textarea class="form-control" id="comments" rows="5" placeholder="Websites"></textarea>
                     </div>
-                    <div class="form-group">
-                        <label for="lastname" class="col-2 col-form-label">WHAT PERCENTAGE OF PRODUCT SALES WILL BE ONLINE?</label>
+                    <div class="form-group col-md-6">
+                        <label for="lastname" class="col-2 col-form-label">WHAT PERCENTAGE OF PRODUCT SALES WILL BE COMING FROM ONLINE?</label>
                         <div class="col-10">
                             <input class="form-control" type="text" placeholder="Percent" id="percentonline">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="lastname" class="col-2 col-form-label">PLEASE LIST THE COUNTRIES WHERE YOU MAY SELL THE PRODUCT</label>
-                        <div class="col-10">
-                            <input class="form-control" type="text" placeholder="Countries" id="countries">
-                        </div>
-                    </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="lastname" class="col-2 col-form-label">WHAT PERCENTAGE OF SALES MAY BE COMING FROM OUTSIDE THE U.S.?</label>
                         <div class="col-10">
                             <input class="form-control" type="text" placeholder="Percent" id="percentnonus">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
+                        <label for="lastname" class="col-2 col-form-label">PLEASE LIST THE COUNTRIES WHERE YOU MAY SELL THE PRODUCT</label>
+                        <div class="col-10">
+                            <input class="form-control" type="text" placeholder="Countries" id="countries">
+                        </div>
+                    </div>
+                    <div class="col-md-12"></div>
+                    <div class="form-group col-md-4">
                         <label for="reason">EXPECTED ORDER QUANTITY? <span class="off-color">*</span></label>
                         <select class="form-control">
                             <option>Less than 200</option>
@@ -169,7 +171,7 @@
                             <option>More than 1000</option>
                         </select>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-12">
                         <label for="phone" class="col-2 col-form-label">WHICH MODELS ARE YOU INTERESTED IN SELLING? <span class="off-color">*</span></label>
                         <br>
                         <label class="form-check-label">
@@ -202,17 +204,19 @@
                             Not Sure
                         </label>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-12">
                         <label for="lastname" class="col-2 col-form-label">HOW DID YOU HEAR ABOUT CLICK N DIG?</label>
                         <div class="col-10">
-                            <input class="form-control" type="text" placeholder="Percent" id="howhear">
+                            <input class="form-control" type="text" placeholder="Source" id="howhear">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-12">
                         <label for="comments">ADDITIONAL INFORMATION YOU FEEL MAY BE IMPORTANT</label>
                         <textarea class="form-control" id="additionalinfo" rows="5" placeholder="Additional Information"></textarea>
                     </div>
-                    <button type="submit" class="btn buynow-btn" style="margin:0;">Submit</button>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn buynow-btn" style="margin:0;">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
