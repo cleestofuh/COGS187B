@@ -160,6 +160,9 @@ p {
 
 
 /* HOME */
+#homepage-content {
+    overflow: hidden;
+}
 .buynow-btn {
     color: #fff;
     background: #F67164 !important;
@@ -185,6 +188,12 @@ p {
     font-size: 2em;
 }
 .image-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+#features-centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -218,7 +227,7 @@ p {
     color: #ffcc00;
 }
 @media (min-width: 768px) {
-    #amazon-review {
+    #after-video {
         margin-top: -27%;
     }
     .video {
@@ -241,6 +250,10 @@ p {
     .image-centered {
         width: 120%;
         margin-left: -30px;
+    }
+    #features-centered {
+        width: 160%;
+        margin-left: -100px;
     }
 }
 
@@ -456,10 +469,10 @@ label {
         top: 0;
         width: 180%;
         height: auto;
-        margin-left: -140px;
+        margin-left: -125px;
     }
     .d2 {
         width: 160%;
-        margin-left: -115px;
+        margin-left: -105px;
     }
 }
