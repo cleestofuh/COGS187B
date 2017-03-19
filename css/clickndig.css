@@ -406,3 +406,16 @@ body {
 .floatright{
     float:right;
 }
+
+
+/** SHOP V2 **/
+.shop-container {
+}
+.product-container {
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+.product-img-long {
+    top: 0;
+    width: 100%;
+}
