@@ -234,7 +234,17 @@ body {
 }
 
 /***** SHOP *****/
+@media (min-width: 767px){
+    .shop_page{
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
 .product {
+    min-width: 285px;
+    margin-right: 18px;
     background: #efefef;
     margin-bottom: 20px;
 }
@@ -269,11 +279,6 @@ body {
 }
 .product-modal .modal-footer {
     text-align: left;
-}
-@media (min-width: 767px) {
-    .product {
-        background: #fff;
-    }
 }
 /***** ABOUT *****/
 .vimeo {
