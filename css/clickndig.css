@@ -3,6 +3,14 @@ body {
     font-size: 13pt;
 }
 
+.line_break {
+    width: 60%;
+    border: transparent;
+    border-bottom: 2px solid #b2b2b2;
+    padding-top: 7px;
+    margin: 0;
+}
+
 .img-center{
     margin: 0 auto;
     display: block;
@@ -54,6 +62,12 @@ body {
     .review-text {
         margin-left: 100px;
         margin-right: 100px;
+    }
+}
+
+@media (max-width: 767px){
+    .line_break{
+        border-bottom: 0px;
     }
 }
 /* NAVBAR */
