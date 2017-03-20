@@ -18,8 +18,10 @@ p {
     margin: 0;
 }
 
-.small-width{
-    width: 70%;
+@media (min-width: 767px){
+    .small-width{
+        width: 70%;
+    }
 }
 
 .img-center{
