@@ -74,6 +74,9 @@ p {
         margin-left: 100px;
         margin-right: 100px;
     }
+    .bg-after-margin {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 767px){
