@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    font-size: 13pt;
+    font-size: 14pt;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -263,8 +263,8 @@ p {
         margin-left: -30px;
     }
     #features-centered {
-        width: 160%;
-        margin-left: -100px;
+        width: 155%;
+        margin-left: -95px;
     }
 }
 
