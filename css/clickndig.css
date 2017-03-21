@@ -151,7 +151,7 @@ p {
     .navbar-cart {
         display: block;
         color: #475867;
-        border: 0;
+        border: none;
         background:
         transparent;
         padding: 10px;
@@ -175,7 +175,7 @@ p {
 }
 .jumbotron {
     position: relative;
-    background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ), url('../img/test/IMG_0166.JPG') no-repeat center center;
+    background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ), url('../img/home-cover.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -347,7 +347,7 @@ p {
 }
 .about-jumbotron {
     position: relative;
-    background: linear-gradient( rgba(0, 100, 180, 0.2), rgba(0, 100, 180, 0.2) ), url('../img/products/9.jpg') no-repeat center center;
+    background: linear-gradient( rgba(0, 100, 180, 0.2), rgba(0, 100, 180, 0.2) ), url('../img/about-cover.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
